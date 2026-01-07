@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather In Jakarta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <form class="Search">
+        <input type="text"  placeholder="Input Your City!!" id="input">
+        <button id="search" type="submit">Search</button>
+    </form>        
+            <div class="container">
+            <h2 class="City"><span id="City"></span></h2>
+            <p class="current">Current Weather</p>
+            <div class="Wh">
+            <img src="cloud-removebg-preview.png" width="120" alt="">
+            <p><span id="temp"></span>°C</p>
+            <p class="serene"><span id="serene"></span></p>
+            </div>
+            <div class="else">
+                <div class="Feels"><img src="temperature-removebg-preview.png" width="30" alt="">
+                <p>Feels Like</p> <span id="Feels"></span></div>
+                <div class="Humidity"><img src="humidity-removebg-preview.png" width="30" alt="">
+                <p>Humidity</p><span id="Humidity"></span></div>
+                <div class="WindSpeed"><img src="windy-removebg-preview.png" width="30" alt="">
+                <p>Wind Speed</p><span id="WindSpeed"></span></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
